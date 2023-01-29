@@ -18,16 +18,16 @@ body {
     color: #ffffff;
 }
 
-/**/
+/*sets header display and font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/**/
+/*sets 'seo' portion of company name to seperate color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-/**/
+/*sets header navigation to the right, at a certain font size, font family, margin and padding */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -35,25 +35,23 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/**/
+/*sets header navigation to have no list style*/
 .header div ul {
     list-style-type: none;
+    
 }
-/**/
+/*sets header navigation to display inline with a margin*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/**/
+/*sets link color to white with no decoration*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-/**/
-p {
-    font-size: 16px;
-}
-/**/
+
+/*sets background image to top page graphic with a particular size, margin and position*/
 .hero {
     height: 800px;
     width: 100%;
@@ -62,23 +60,31 @@ p {
     background-size: cover;
     background-position: center;
 }
-/**/
-.float-left {
-    float: left;
-    margin-right: 25px;
+
+/*sets content p font size */
+p {
+    font-size: 16px;
 }
-/**/
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-/**/
+
+/*sets content element width display and left margin*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-/**/
+
+/*sets SEO and social media marketing images to float to the left of the element*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/*sets online reputation management to floar right to the right of the element*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*sets benefits to right side is view, margin, padding, width, height, font family and background color*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -89,21 +95,14 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/**/
-.benefit-lead {
+
+/*sets each benefits div to same size and same font color*/
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/**/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/**/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+
+
 /*sets font size and alignment to benefits headings*/
 .benefit h3 {
     margin-bottom: 10px;
@@ -118,7 +117,7 @@ p {
     max-width: 150px;
 }
 
-/**/
+/*sets element margin, padding, height, font family, background color and font color*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -128,7 +127,7 @@ p {
     color: #ffffff;
 }
 
-/**/
+/*sets element margin, padding, height, font family, background color and font color*/
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -138,7 +137,7 @@ p {
     color: #ffffff;
 }
 
-/**/
+/*sets element margin, padding, height, font family, background color and font color*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -148,35 +147,14 @@ p {
     color: #ffffff;
 }
 
-/**/
-.search-engine-optimization img {
+/*sets content images to a specific height*/
+.content img {
     max-height: 200px;
 }
 
-/**/
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-/**/
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/**/
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/**/
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/**/
-.social-media-marketing h2 {
+/*sets margin and font size of content headings*/
+.content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
