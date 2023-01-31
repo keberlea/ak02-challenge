@@ -166,9 +166,9 @@ This repository was made with a goal to optimize a marketing agency's, Horiseon,
 
 ## Usage
 
-
-![screenshot](assets/images/screenshot.png)
+![screenshot](./assets/images/assets/images/horiseon-homepage-screenshot.png)
     
+
 
 ## Credits
 
